@@ -1,0 +1,114 @@
+*{
+margin:0;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+ 
+}
+.menu-icon{
+  display: block;
+  margin-left: px;
+  font-size:40px;
+  color: #fff;
+}
+nav{
+  background: black;
+  
+}
+.menu{
+ 
+  background: black;
+  width: 45%;
+  height: 100vh;
+  position: fixed;
+  padding: 20px;
+  top: 0px;
+  left: -45%;
+  transition: 0.8s;
+  
+  
+}
+
+.cross{
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+}
+.menu ul li a{
+  display: block;
+ 
+  text-decoration: none;
+  margin: 30px 5px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.smenu{
+  
+  left: 0%;
+ 
+  transition:  0.8s;
+}
+nav h1{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+#light-img{
+  background: black;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50%;
+  
+  
+}
+.dark-red{
+  
+  font-size: 2rem;
+  margin-bottom: 1rem;
+background: linear-gradient(305deg ,skyblue,green,skyblue,aqua,skyblue,aqua,yellow);
+  background-clip:text;
+  color: transparent;
+  font-weight: bold;
+  
+}
+
+.progress-div{
+  background: white;
+  width: 70px;
+  height: 25px;
+  border-radius: 40px;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.progress-item{
+  height: 22px;
+  width: 22px;
+  background: blue;
+  
+  border-radius: 50%;
+  position: absolute;
+  left: 2px;
+ bottom: 1px;
+ 
+}
+.go-right{
+  position: absolute;
+  
+  
+  left: 60%;
+  
+}
+
+.progressColorChange{
+  background: hotpink;
+}
+
